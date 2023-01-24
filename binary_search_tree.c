@@ -57,7 +57,7 @@ struct node* insert(struct node* node, int key)
    else if (key > node->key)
         node->right = insert(node->right, key);
     return node;
-}
+}}
 struct node* minValueNode(struct node* node)
 {
     struct node* current = node;
